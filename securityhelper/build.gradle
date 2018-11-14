@@ -1,18 +1,14 @@
 apply plugin: 'com.android.library'
 group='com.github.alimodares2003'
+
 android {
     compileSdkVersion 27
-
-
-
     defaultConfig {
         minSdkVersion 14
         targetSdkVersion 27
-        versionCode 1
-        versionName "1.0"
-
+        versionCode 2
+        versionName "1.1"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
-
     }
 
     buildTypes {
