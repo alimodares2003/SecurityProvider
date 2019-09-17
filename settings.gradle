@@ -1,1 +1,2 @@
-include ':app', ':securityhelper'
+include ':app', ':securityproviderlibrary'
+rootProject.name='Security Provider'
