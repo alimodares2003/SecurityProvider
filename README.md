@@ -1,7 +1,19 @@
 # SecurityProvider
 Helps you develop an app with security
 
-#Instalitaion
+# Installation
+```gradle
+allprojects {
+    repositories {
+        ...
+        maven { url 'https://jitpack.io' }
+    }
+}
+
+//add this to your dependencies
+implementation 'com.github.alimodares2003:SecurityProvider:2.0.0'
+```
+# How to use
 
 To prevent duplication of your application, simply give your MD5 package name string a isClone function and check that the copy has been taken or not.
 like this (my package name is ir.adp) : 
